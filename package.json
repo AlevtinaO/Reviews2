@@ -17,5 +17,10 @@
   },
   "dependencies": {
     "sass": "^1.62.1"
+  },
+  "staticFiles": {
+    "staticPath": "images",
+    "staticOutPath": "images",
+    "distDir": "images"
   }
 }

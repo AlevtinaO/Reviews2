@@ -46,24 +46,24 @@
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+
+
+    .random-button {
+        background-color: white;
+        color: black;
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: rgb(150, 26, 26);
+        }
+    }
 }
-
-.random-button {
-    background-color: white;
-    color: black;
-    font-size: 10px;
-    width: 100px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.random-button :hover {
-    background-color: rgb(150, 26, 26);
-}
-
-
 
 
 .reviews-box {
